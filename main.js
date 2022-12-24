@@ -4,7 +4,7 @@ var grades = [];
            //Add the appropriate id names to read scores, student_name
            document.getElementById("scores").value = val;
            document.getElementById("student_name").value = "";
-           document.getElementById("scores").value = "";   
+           document.getElementById("score").value = "";   
            document.getElementById("student_name").focus();
         }    
         //Function to add last, first, score to studentGrade
